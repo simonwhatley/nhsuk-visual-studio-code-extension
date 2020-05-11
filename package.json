@@ -1,0 +1,46 @@
+{
+  "name": "nhsuk-design-system-snippets",
+  "version": "1.0.0",
+  "publisher": "simonwhatley",
+  "displayName": "NHS.UK Design System snippets",
+  "description": "NHS.UK Design System snippets for Nunjucks by Simon Whatley",
+  "keywords": [
+    "government",
+    "nhs",
+    "nhs.uk",
+    "nunjucks",
+    "prototyping",
+    "snippet",
+    "snippets",
+    "vscode"
+  ],
+  "icon": "images/icon.png",
+  "author": "Simon Whatley",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatterz/nhsuk-visual-studio-code-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatterz/nhsuk-visual-studio-code-extension/issues"
+  },
+  "homepage": "https://github.com/whatterz/nhsuk-visual-studio-code-extension#readme",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

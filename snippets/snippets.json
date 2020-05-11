@@ -1,0 +1,675 @@
+{
+	"Grid row": {
+		"prefix": "nhsuk-grid-row",
+		"body": [
+			"<div class=\"nhsuk-grid-row\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid row – NHS.UK Design System"
+	},
+	"Grid column": {
+		"prefix": "nhsuk-grid-column",
+		"body": [
+			"{# Column size class suffixes: full, one-half, one-third, two-thirds, one-quarter #}",
+			"<div class=\"nhsuk-grid-column-${1:size}\">",
+			"\t$2",
+			"</div>$0"
+		],
+		"description": "Grid column – NHS.UK Design System"
+	},
+	"Grid column full": {
+		"prefix": "nhsuk-grid-column-full",
+		"body": [
+			"<div class=\"nhsuk-grid-column-full\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid column full width – NHS.UK Design System"
+	},
+	"Grid column one-half": {
+		"prefix": "nhsuk-grid-column-one-half",
+		"body": [
+			"<div class=\"nhsuk-grid-column-one-half\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid column one-half width – NHS.UK Design System"
+	},
+	"Grid column one-quarter": {
+		"prefix": "nhsuk-grid-column-one-quarter",
+		"body": [
+			"<div class=\"nhsuk-grid-column-one-quarter\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid column one-quarter width – NHS.UK Design System"
+	},
+	"Grid column two-thirds": {
+		"prefix": "nhsuk-grid-column-two-thirds",
+		"body": [
+			"<div class=\"nhsuk-grid-column-two-thirds\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid column two-thirds width – NHS.UK Design System"
+	},
+	"Grid column one-third": {
+		"prefix": "nhsuk-grid-column-one-third",
+		"body": [
+			"<div class=\"nhsuk-grid-column-one-third\">",
+			"\t$1",
+			"</div>$0"
+		],
+		"description": "Grid column one-third width – NHS.UK Design System"
+	},
+	"Layout two-thirds / one-third": {
+		"prefix": "nhsuk-layout-two-thirds-one-third",
+		"body": [
+			"<div class=\"nhsuk-grid-row\">",
+			"\t<div class=\"nhsuk-grid-column-two-thirds\">",
+			"\t\t$1",
+			"\t</div>",
+			"\t<div class=\"nhsuk-grid-column-one-third\">",
+			"\t\t$2",
+			"\t</div>",
+			"</div>$0"
+		],
+		"description": "Layout two-thirds / one-third columns – NHS.UK Design System"
+	},
+	"Layout one-third / two-thirds": {
+		"prefix": "nhsuk-layout-one-third-two-thirds",
+		"body": [
+		"<div class=\"nhsuk-grid-row\">",
+		"\t<div class=\"nhsuk-grid-column-one-third\">",
+		"\t\t$1",
+		"\t</div>",
+		"\t<div class=\"nhsuk-grid-column-two-thirds\">",
+		"\t\t$2",
+		"\t</div>",
+		"</div>$0"
+		],
+		"description": "Layout one-third / two-thirds columns – NHS.UK Design System"
+	},
+	"Form section": {
+		"prefix": "nhsuk-form-section",
+		"body": [
+		  "<div class=\"nhsuk-form-section\">",
+		  "\t$1",
+		  "</div>$0"
+		],
+		"description": "Form section – NHS.UK Design System"
+	  },
+	"Form group": {
+		"prefix": "nhsuk-form-group",
+		"body": [
+		  "<div class=\"nhsuk-form-group\">",
+		  "\t$1",
+		  "</div>$0"
+		],
+		"description": "Form group – NHS.UK Design System"
+	},
+	"Form fieldset": {
+		"prefix": "nhsuk-fieldset",
+		"body": [
+		"{{ fieldset({",
+		"\tlegend: {",
+		"\t\ttext: \"${1:Legend text}\",",
+		"\t\tclasses: \"nhsuk-fieldset__legend--${2:xl|l|m}\",",
+		"\t\tisPageHeading: ${3:true|false}",
+		"\t}",
+		"}) }}$0"
+		],
+		"description": "Form fieldset – NHS.UK Design System"
+	},
+	"Section break": {
+		"prefix": "nhsuk-section-break",
+		"body": [
+		  "{# Size modifiers: xl, l, m #}",
+		  "<hr class=\"nhsuk-section-break nhsuk-section-break--${1:size} nhsuk-section-break--visible\">$0"
+		],
+		"description": "Section break – NHS.UK Design System"
+	},
+	"Headings": {
+		"prefix": "nhsuk-heading",
+		"body": [
+			"<h${1:1} class=\"nhsuk-heading-${2:xl|l|m|s|xs}\">",
+			"\t$3",
+			"</h${1:1}>$0"
+		],
+		"description": "Headings – NHS.UK Design System"
+	},
+	"Captions": {
+		"prefix": "nhsuk-caption",
+		"body": [
+			"<span class=\"nhsuk-caption-${1:xl|l|m}\">",
+			"\t$2",
+			"</span>$0"
+		],
+		"description": "Captions – NHS.UK Design System"
+	},
+	"Paragraph body": {
+		"prefix": "nhsuk-paragraph-body",
+		"body": [
+			"<p class=\"nhsuk-body\">",
+			"\t$1",
+			"<p>$0"
+		],
+		"description": "Paragraph body – NHS.UK Design System"
+	  },
+	"Paragraph body small": {
+		"prefix": "nhsuk-paragraph-body-small",
+		"body": [
+			"<p class=\"nhsuk-body-s\">",
+			"\t$1",
+			"<p>$0"
+		],
+		"description": "Paragraph body small – NHS.UK Design System"
+	},
+	"Lead paragraph": {
+		"prefix": "nhsuk-paragraph-lead",
+		"body": [
+			"<p class=\"nhsuk-body-l\">",
+			"\t$1",
+			"<p>$0"
+		],
+		"description": "Lead paragraph – NHS.UK Design System"
+	},
+	"Font size override": {
+		"prefix": "nhsuk-font-size",
+		"body": [
+			"{# Font sizes: 64, 48, 24, 22, 19, 16, 14 #}",
+			"<p class=\"nhsuk-u-font-size-${1:size}\">",
+			"\t$2",
+			"<p>$0"
+		],
+		"description": "Font size override – NHS.UK Design System"
+	},
+	"Font weight override": {
+		"prefix": "nhsuk-font-weight",
+		"body": [
+			"{# Font weights: regular, bold #}",
+			"<p class=\"nhsuk-u-font-weight-${1:bold}\">",
+			"\t$2",
+			"<p>$0"
+		],
+		"description": "Font weight override – NHS.UK Design System"
+	},
+	"Links": {
+		"prefix": "nhsuk-link",
+		"body": [
+			"<a href=\"${1:#}\">$2</a>$0"
+		],
+		"description": "Links – NHS.UK Design System"
+	},
+	"Visually hidden": {
+		"prefix": "nhsuk-visually-hidden",
+		"body": [
+			"<span class=\"nhsuk-u-visually-hidden\">$1</span>$0"
+		],
+		"description": "Visually hidden text – NHS.UK Design System"
+	},
+	"Lists": {
+		"prefix": "nhsuk-list",
+		"body": [
+			"<ul class=\"nhsuk-list\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$0"
+		],
+		"description": "Lists – NHS.UK Design System"
+	},
+	"Bulleted lists": {
+		"prefix": "nhsuk-list-bullet",
+		"body": [
+			"<ul class=\"nhsuk-list nhsuk-list--bullet\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$0"
+		],
+		"description": "Bulleted lists – NHS.UK Design System"
+	},
+	"Numbered lists": {
+		"prefix": "nhsuk-list-number",
+		"body": [
+			"<ul class=\"nhsuk-list nhsuk-list--number\">",
+			"\t<li>",
+			"\t\t${1:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${2:List item}",
+			"\t</li>",
+			"\t<li>",
+			"\t\t${3:List item}",
+			"\t</li>",
+			"</ul>$0"
+		],
+		"description": "Numbered lists – NHS.UK Design System"
+	},
+	"Button": {
+		"prefix": "nhsuk-button",
+		"body": [
+			"{{ button({",
+			"\ttext: \"${1:Button text}\"",
+			"}) }}$0"
+		],
+		"description": "Button – NHS.UK Design System"
+	  },
+	"Checkboxes": {
+		"prefix": "nhsuk-checkboxes",
+		"body": [
+			"{{ checkboxes({",
+			"\tidPrefix: \"$1\",",
+			"\tname: \"$1\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"nhsuk-fieldset__legend--${4:l}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${5:Hint text}\"",
+			"\t},",
+			"\titems: [",
+      "\t\t{",
+      "\t\t\tvalue: \"${6:Value}\",",
+      "\t\t\ttext: \"${7:Text}\",",
+      "\t\t\tchecked: $8",
+			"\t\t}$9",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Checkboxes – NHS.UK Design System"
+	},
+	"Radios": {
+		"prefix": "nhsuk-radios",
+		"body": [
+			"{{ radios({",
+			"\tidPrefix: \"$1\",",
+			"\tname: \"$1\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"nhsuk-fieldset__legend--${4:l}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${5:Hint text}\"",
+			"\t},",
+			"\titems: [",
+      "\t\t{",
+      "\t\t\tvalue: \"${6:Value}\",",
+      "\t\t\ttext: \"${7:Text}\",",
+      "\t\t\tchecked: $8",
+			"\t\t}$9",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Radios – NHS.UK Design System"
+	},
+	"Select": {
+		"prefix": "nhsuk-select",
+		"body": [
+			"{{ select({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+			"\t},",
+			"\titems: [",
+      "\t\t{",
+      "\t\t\tvalue: \"${4:Value}\",",
+      "\t\t\ttext: \"${5:Text}\",",
+      "\t\t\tselected: $6",
+			"\t\t}$7",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Select – NHS.UK Design System"
+	},
+	"Radio or checkbox option": {
+		"prefix": "nhsuk-option",
+		"body": [
+			"{",
+      "\tvalue: \"$1\",",
+      "\ttext: \"$2\",",
+      "\tchecked: $3",
+			"}$0"
+		],
+		"description": "Radio or checkbox option – NHS.UK Design System"
+	},
+	"Select option": {
+		"prefix": "nhsuk-select-option",
+		"body": [
+			"{",
+      "\tvalue: \"$1\",",
+      "\ttext: \"$2\",",
+      "\tselected: $3",
+			"}$0"
+		],
+		"description": "Select option – NHS.UK Design System"
+	},
+	"Text input": {
+		"prefix": "nhsuk-input",
+		"body": [
+			"{{ input({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+      "\t},",
+      "\tvalue: \"${4:Value}\"",
+			"}) }}",
+			"$0"
+		],
+		"description": "Text input – NHS.UK Design System"
+	},
+	"Textarea": {
+		"prefix": "nhsuk-textarea",
+		"body": [
+			"{{ textarea({",
+			"\tid: \"$1\",",
+			"\tname: \"$1\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Label text}\"",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+			"\t},",
+      "\tvalue: \"${4:Value}\"",
+			"}) }}$0"
+		],
+		"description": "Textarea – NHS.UK Design System"
+	},
+	"Address": {
+		"prefix": "nhsuk-address",
+		"body": [
+			"{% call fieldset({",
+			"\tlegend: {",
+			"\t\ttext: \"${1:What is your address?}\",",
+      "\t\tisPageHeading: ${2:true},",
+			"\t\tclasses: \"nhsuk-fieldset__legend--${3:l}\"",
+			"\t}",
+			"}) %}",
+			"",
+			"\t{{ input({",
+			"\t\tid: \"address-line-1\",",
+			"\t\tname: \"address-line-1\",",
+			"\t\tlabel: {",
+			"\t\t\thtml: 'Building and street <span class=\"nhsuk-visually-hidden\">line 1 of 2</span>'",
+			"\t\t},",
+      "\t\tvalue: \"${5:Value}\"",
+			"\t}) }}",
+			"",
+			"\t{{ input({",
+			"\t\tid: \"address-line-2\",",
+			"\t\tname: \"address-line-2\",",
+			"\t\tlabel: {",
+			"\t\t\thtml: '<span class=\"nhsuk-visually-hidden\">Building and street line 2 of 2</span>'",
+			"\t\t},",
+      "\t\tvalue: \"${6:Value}\"",
+			"\t}) }}",
+			"",
+			"\t{{ input({",
+			"\t\tid: \"address-town\",",
+			"\t\tname: \"address-town\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"Town or city\"",
+			"\t\t},",
+      "\t\tvalue: \"${7:Value}\"",
+			"\t\tclasses: \"nhsuk-u-width-two-thirds\"",
+			"\t}) }}",
+			"",
+			"\t{{ input({",
+			"\t\tid: \"address-county\",",
+			"\t\tname: \"address-county\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"County\"",
+			"\t\t},",
+      "\t\tvalue: \"${8:Value}\"",
+			"\t\tclasses: \"nhsuk-u-width-two-thirds\"",
+			"\t}) }}",
+			"",
+			"\t{{ input({",
+			"\t\tid: \"address-postcode\",",
+			"\t\tname: \"address-postcode\",",
+			"\t\tlabel: {",
+			"\t\t\ttext: \"Postcode\"",
+			"\t\t},",
+      "\t\tvalue: \"${9:Value}\"",
+			"\t\tclasses: \"nhsuk-input--width-10\"",
+			"\t}) }}",
+			"",
+			"{% endcall %}$0"
+		],
+		"description": "Addresses – NHS.UK Design System"
+	},
+	"Date input": {
+		"prefix": "nhsuk-date",
+		"body": [
+			"{{ dateInput({",
+			"\tid: \"${1:date}\",",
+			"\tname: \"${1:date}\",",
+			"\tfieldset: {",
+			"\t\tlegend: {",
+			"\t\t\ttext: \"${2:Legend text}\",",
+			"\t\t\tisPageHeading: ${3:true},",
+			"\t\t\tclasses: \"nhsuk-fieldset__legend--${4:l}\"",
+			"\t\t}",
+			"\t},",
+			"\thint: {",
+			"\t\ttext: \"${5:For example, 31 3 1980}\"",
+			"\t},",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\tname: \"day\",",
+      "\t\t\tvalue: \"${6:Value}\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tname: \"month\",",
+      "\t\t\tvalue: \"${7:Value}\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tname: \"year\",",
+      "\t\t\tvalue: \"${8:Value}\"",
+			"\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Date input – NHS.UK Design System"
+	},
+	"File upload": {
+		"prefix": "nhsuk-file",
+		"body": [
+			"{{ fileUpload({",
+			"\tid: \"${1:file-upload-1}\",",
+			"\tname: \"${1:file-upload-1}\",",
+			"\tlabel: {",
+			"\t\ttext: \"${2:Upload a file}\"",
+			"\t}",
+			"\thint: {",
+			"\t\ttext: \"${3:Hint text}\"",
+			"\t}",
+			"}) }}$0"
+		],
+		"description": "File upload – NHS.UK Design System"
+	},
+	"Back link": {
+		"prefix": "nhsuk-back-link",
+		"body": [
+			"{{ backLink({",
+			"\ttext: \"${1:Back}\",",
+			"\thref: \"${2:#}\"",
+			"}) }}$0"
+		],
+		"description": "Back link – NHS.UK Design System"
+	},
+	"Breadcrumbs": {
+		"prefix": "nhsuk-breadcrumbs",
+		"body": [
+			"{{ breadcrumb({",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\ttext: \"${1:Level one}\",",
+			"\t\t\thref: \"${2:/level-one}\"",
+      "\t\t}",
+      "\t\t{",
+			"\t\t\ttext: \"${3:Level two}\",",
+			"\t\t\thref: \"${4:/level-two}\"",
+      "\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Breadcrumbs – NHS.UK Design System"
+	},
+	"Details": {
+		"prefix": "nhsuk-details",
+		"body": [
+			"{{ details({",
+			"\ttext: \"${1:Summary text}\",",
+			"\thtml: \"${2:HTML}\"",
+			"}) }}$0"
+		],
+		"description": "Details – NHS.UK Design System"
+	},
+	"Error summary": {
+		"prefix": "nhsuk-error-summary",
+		"body": [
+			"{{ errorSummary({",
+      "\ttitleText: \"${1:There is a problem}\",",
+			"\terrorList: [",
+      "\t\t{",
+			"\t\t\ttext: \"${2:Error text}\",",
+			"\t\t\thref: \"${3:Anchor text}\"",
+			"\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Error summary – NHS.UK Design System"
+	},
+	"Footer": {
+		"prefix": "nhsuk-footer",
+		"body": [
+      "{{ footer({",
+      "\tlinks: [",
+      "\t\t{",
+			"\t\t\tlabel: \"${1:Link text}\",",
+			"\t\t\turl: \"${2:Anchor text}\"",
+			"\t\t}",
+      "\t]",
+      "}) }}$0"
+		],
+		"description": "Footer – NHS.UK Design System"
+	},
+	"Header": {
+		"prefix": "nhsuk-header",
+		"body": [
+      "{{ header({",
+      "\tshowNav: true,",
+      "\tshowSearch: true,",
+			"\tprimaryLinks: [",
+      "\t\t{",
+			"\t\t\tlabel: \"${1:Link text}\",",
+			"\t\t\turl: \"${2:Anchor text}\"",
+			"\t\t}",
+      "\t]",
+			"}) }}$0"
+		],
+		"description": "Header – NHS.UK Design System"
+	},
+	"Inset text": {
+		"prefix": "nhsuk-inset-text",
+		"body": [
+			"{{ insetText({",
+			"\thtml: \"${1:Text}\"",
+			"}) }}$0"
+		],
+		"description": "Inset text – NHS.UK Design System"
+	},
+	"Skip link": {
+		"prefix": "nhsuk-skip-link",
+		"body": [
+			"{{ skipLink({",
+			"\ttext: \"Skip to main content\",",
+			"\thref: \"#content\"",
+			"}) }}$0"
+		],
+		"description": "Skip link – NHS.UK Design System"
+	},
+	"Table": {
+		"prefix": "nhsuk-table",
+		"body": [
+			"{{ table({",
+			"\tcaption: \"${1:Caption text}\",",
+			"\tfirstCellIsHeader: ${2:false},",
+			"\thead: [",
+			"\t\t{",
+			"\t\t\ttext: \"Column 1 heading\"",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\ttext: \"Column 2 heading\"",
+			"\t\t}",
+			"\t],",
+			"\trows: [",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 1, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 1, column 2\"",
+			"\t\t\t}",
+			"\t\t],",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 2, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 2, column 2\"",
+			"\t\t\t}",
+			"\t\t],",
+			"\t\t[",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 3, column 1\"",
+			"\t\t\t},",
+			"\t\t\t{",
+			"\t\t\t\ttext: \"Row 3, column 2\"",
+			"\t\t\t}",
+			"\t\t]",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Table – NHS.UK Design System"
+	},
+	"Warning callout": {
+		"prefix": "nhsuk-warning-callout",
+		"body": [
+			"{{ warningCallout({",
+			"\theading: \"${1:Warning heading}\",",
+			"\thtml: \"${2:Warning text}\"",
+			"}) }}$0"
+		],
+		"description": "Warning callout – NHS.UK Design System"
+	}
+}
