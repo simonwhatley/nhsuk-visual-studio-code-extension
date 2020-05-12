@@ -10,8 +10,8 @@ This extension for Visual Studio Code includes snippets to help in building the 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
-|[Form group](https://service-manual.nhs.uk/design-system/)|`nhsuk-form-group`||
-|[Form section](https://service-manual.nhs.uk/design-system/)|`nhsuk-form-section`||
+|Form group|`nhsuk-form-group`||
+|Form section|`nhsuk-form-section`||
 |[Grid column full](https://service-manual.nhs.uk/design-system/styles/layout/#full-width)|`nhsuk-grid-column-full`||
 |[Grid column one-half](https://service-manual.nhs.uk/design-system/styles/layout/#one-half)|`nhsuk-grid-column-one-half`||
 |[Grid column one-quarter](https://service-manual.nhs.uk/design-system/styles/layout/#one-quarter)|`nhsuk-grid-column-one-quarter`||
@@ -26,7 +26,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
-|[Caption](https://service-manual.nhs.uk/design-system/styles/typography/)|`nhsuk-caption`||
+|Caption|`nhsuk-caption`||
 |[Font size override](https://service-manual.nhs.uk/design-system/styles/typography/#font-size)|`nhsuk-font-size`||
 |[Font weight override](https://service-manual.nhs.uk/design-system/styles/typography/#font-weight)|`nhsuk-font-weight`||
 |[Heading](https://service-manual.nhs.uk/design-system/styles/typography/#headings)|`nhsuk-heading`||
@@ -46,14 +46,13 @@ This extension for Visual Studio Code includes snippets to help in building the 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
-|[Addresses](https://service-manual.nhs.uk/design-system/patterns/addresses/)|`nhsuk-address`||
+|Addresses|`nhsuk-address`||
 |[Button](https://service-manual.nhs.uk/design-system/components/button/)|`nhsuk-button`||
 |[Checkboxes](https://service-manual.nhs.uk/design-system/components/checkboxes/)|`nhsuk-checkboxes`||
 |Checkbox or radio option|`nhsuk-option`|Use in conjunction with the `nhsuk-checkboxes` and `nhsuk-radios` Nunjucks snippets.|
-|[Dates](https://service-manual.nhs.uk/design-system/components/date-input/)|`nhsuk-date`||
+|[Date input](https://service-manual.nhs.uk/design-system/components/date-input/)|`nhsuk-date`||
 |[Error summary](https://service-manual.nhs.uk/design-system/components/error-summary/)|`nhsuk-error-summary`||
 |[Fieldset](https://service-manual.nhs.uk/design-system/components/fieldset/)|`nhsuk-fieldset`||
-<!-- |[File upload](https://service-manual.nhs.uk/design-system/components/file-upload/)|`nhsuk-file`|| -->
 |[Radios](https://service-manual.nhs.uk/design-system/components/radios/)|`nhsuk-radios`||
 |[Select](https://service-manual.nhs.uk/design-system/components/select/)|`nhsuk-select`||
 |Select option|`nhsuk-select-option`|Use in conjunction with the `nhsuk-select` Nunjucks snippet.|
