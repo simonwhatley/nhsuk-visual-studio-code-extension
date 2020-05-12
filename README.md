@@ -79,7 +79,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Skip link](https://service-manual.nhs.uk/design-system/components/skip-link/)|`nhsuk-skip-link`||
 
 ## Dependencies
-Using this extension depends on the installation of the [GOV.UK Frontend](https://www.npmjs.com/package/nhsuk-frontend) and [Nunjucks](https://www.npmjs.com/package/nunjucks) into your project.
+Using this extension depends on the installation of the [NHS.UK Frontend](https://www.npmjs.com/package/nhsuk-frontend) and [Nunjucks](https://www.npmjs.com/package/nunjucks) into your project.
 
 ## Support
 This repository is maintained by Simon Whatley. If you’ve got a question or need support you can:
