@@ -587,7 +587,7 @@
       "\tvalue: data.$7",
       "}) }}$0"
 		],
-		"description": "Character count – GOV.UK Design System"
+		"description": "Character count – NHS.UK Design System"
 	},
 	"Date input": {
 		"prefix": "nhsuk-date",
