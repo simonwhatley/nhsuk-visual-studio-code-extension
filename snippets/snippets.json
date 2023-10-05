@@ -747,6 +747,17 @@
 		],
 		"description": "Details – NHS.UK Design System"
 	},
+	"Expander": {
+		"prefix": "nhsuk-expander",
+		"body": [
+			"{{ details({",
+			"\ttext: \"${1:Summary text}\",",
+			"\thtml: \"${2:HTML}\",",
+      "\tclasses: \"nhsuk-expander\"",
+			"}) }}$0"
+		],
+		"description": "Expander – NHS.UK Design System"
+	},
 	"Error summary": {
 		"prefix": "nhsuk-error-summary",
 		"body": [
