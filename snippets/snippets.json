@@ -758,6 +758,16 @@
 		],
 		"description": "Expander – NHS.UK Design System"
 	},
+	"Images": {
+		"prefix": "nhsuk-image",
+		"body": [
+			"{{ image({",
+			"\tsrc: \"${1:Source URL}\",",
+			"\talt: \"${2:alt text}\"",
+			"}) }}$0"
+		],
+		"description": "Iamges – NHS.UK Design System"
+	},
 	"Error summary": {
 		"prefix": "nhsuk-error-summary",
 		"body": [
