@@ -925,5 +925,16 @@
 			"}) }}$0"
 		],
 		"description": "Warning callout – NHS.UK Design System"
+	},
+	"Card cards": {
+		"prefix": "nhsuk-care-card",
+		"body": [
+			"{{ card({",
+			"\ttype: \"${1:non-urgent}\",",
+      "\theading: \"${2:Heading text}\",",
+			"\tdescriptionHtml: \"${3:Description}\"",
+			"}) }}$0"
+		],
+		"description": "Care card – NHS.UK Design System"
 	}
 }

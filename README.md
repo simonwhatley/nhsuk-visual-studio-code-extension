@@ -68,6 +68,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
+|[Care cards](https://service-manual.nhs.uk/design-system/patterns/help-users-decide-when-and-where-to-get-care)|`nhsuk-care-card`||
 |[Details](https://service-manual.nhs.uk/design-system/components/details/)|`nhsuk-details`||
 |[Inset text](https://service-manual.nhs.uk/design-system/components/inset-text/)|`nhsuk-inset-text`||
 |[Summary list](https://service-manual.nhs.uk/design-system/components/summary-list)|`nhsuk-summary-list`||
