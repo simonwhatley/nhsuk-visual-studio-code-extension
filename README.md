@@ -47,15 +47,20 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |Name|Shortcut|Notes|
 |-------------------------|-------------------------|---|
 |Addresses|`nhsuk-address`||
+|Bank details|`nhsuk-bank-details`||
 |[Button](https://service-manual.nhs.uk/design-system/components/button/)|`nhsuk-button`||
+|[Character count](https://service-manual.nhs.uk/design-system/components/character-count)|`nhsuk-character-count`||
 |[Checkboxes](https://service-manual.nhs.uk/design-system/components/checkboxes/)|`nhsuk-checkboxes`||
 |Checkbox or radio option|`nhsuk-option`|Use in conjunction with the `nhsuk-checkboxes` and `nhsuk-radios` Nunjucks snippets.|
 |[Date input](https://service-manual.nhs.uk/design-system/components/date-input/)|`nhsuk-date`||
+|Email address|`nhsuk-email`||
 |[Error summary](https://service-manual.nhs.uk/design-system/components/error-summary/)|`nhsuk-error-summary`||
 |[Fieldset](https://service-manual.nhs.uk/design-system/components/fieldset/)|`nhsuk-fieldset`||
+|National insurance number|`nhsuk-nino`||
 |[Radios](https://service-manual.nhs.uk/design-system/components/radios/)|`nhsuk-radios`||
 |[Select](https://service-manual.nhs.uk/design-system/components/select/)|`nhsuk-select`||
 |Select option|`nhsuk-select-option`|Use in conjunction with the `nhsuk-select` Nunjucks snippet.|
+|Telephone number|`nhsuk-telephone`||
 |[Text input](https://service-manual.nhs.uk/design-system/components/text-input/)|`nhsuk-input`||
 |[Textarea](https://service-manual.nhs.uk/design-system/components/textarea/)|`nhsuk-textarea`||
 
@@ -65,6 +70,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |-------------------------|-------------------------|---|
 |[Details](https://service-manual.nhs.uk/design-system/components/details/)|`nhsuk-details`||
 |[Inset text](https://service-manual.nhs.uk/design-system/components/inset-text/)|`nhsuk-inset-text`||
+|[Summary list](https://service-manual.nhs.uk/design-system/components/summary-list)|`nhsuk-summary-list`||
 |[Tables](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
 |[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-text/)|`nhsuk-warning-callout`||
 
