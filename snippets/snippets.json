@@ -709,6 +709,16 @@
 		],
 		"description": "Telephone number – NHS.UK Design System"
 	},
+	"Action link": {
+		"prefix": "nhsuk-action-link",
+		"body": [
+			"{{ actionLink({",
+			"\ttext: \"${1:Link text}\",",
+			"\thref: \"${2:#}\"",
+			"}) }}$0"
+		],
+		"description": "Action link – NHS.UK Design System"
+	},
 	"Back link": {
 		"prefix": "nhsuk-back-link",
 		"body": [
