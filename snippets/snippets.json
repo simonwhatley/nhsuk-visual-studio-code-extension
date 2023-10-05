@@ -756,7 +756,7 @@
       "\tclasses: \"nhsuk-expander\"",
 			"}) }}$0"
 		],
-		"description": "Details – NHS.UK Design System"
+		"description": "Expander – NHS.UK Design System"
 	},
 	"Error summary": {
 		"prefix": "nhsuk-error-summary",
