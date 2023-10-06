@@ -75,8 +75,8 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Images](https://service-manual.nhs.uk/design-system/components/images/)|`nhsuk-image`||
 |[Inset text](https://service-manual.nhs.uk/design-system/components/inset-text/)|`nhsuk-inset-text`||
 |[Summary list](https://service-manual.nhs.uk/design-system/components/summary-list)|`nhsuk-summary-list`||
-|[Tables](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
-|[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-text/)|`nhsuk-warning-callout`||
+|[Table](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
+|[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-callout/)|`nhsuk-warning-callout`||
 
 #### Navigation
 
