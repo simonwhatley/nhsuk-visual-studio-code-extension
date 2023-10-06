@@ -1002,6 +1002,47 @@
 		],
 		"description": "Table – NHS.UK Design System"
 	},
+	"Tabs": {
+		"prefix": "nhsuk-tabs",
+		"body": [
+			"{{ tabs({",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\tlabel: \"${1:Tab one}\",",
+			"\t\t\tid: \"${2:tab-1}\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${3:tab1Html}",
+			"\t\t\t}",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tlabel: \"${4:Tab two}\",",
+			"\t\t\tid: \"${5:tab-2}\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${6:tab2Html}",
+			"\t\t\t}",
+			"\t\t},",
+			"\t\t{",
+			"\t\t\tlabel: \"${7:Tab three}\",",
+			"\t\t\tid: \"${8:tab-3}\",",
+			"\t\t\tpanel: {",
+			"\t\t\t\thtml: ${9:tab3Html}",
+			"\t\t\t}",
+			"\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Tabs – NHS.UK Design System"
+	},
+	"Tab item set": {
+		"prefix": "nhsuk-tab-item",
+		"body": [
+			"{% set ${1:tabName} %}",
+			"<h2 class=\"nhsuk-heading-l\">${2:Tab heading}</h2>",
+			"$3",
+			"{% endset %}$0"
+		],
+		"description": "Tab item – NHS.UK Design System"
+	},
 	"Warning callout": {
 		"prefix": "nhsuk-warning-callout",
 		"body": [
