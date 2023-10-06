@@ -767,7 +767,7 @@
 			"\t]",
 			"}) }}$0"
 		],
-		"description": "Breadcrumbs – NHS.UK Design System"
+		"description": "Contents list – NHS.UK Design System"
 	},
 	"Details": {
 		"prefix": "nhsuk-details",
