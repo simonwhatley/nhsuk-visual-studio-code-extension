@@ -737,7 +737,7 @@
 			"\t\t{",
 			"\t\t\ttext: \"${1:Level one}\",",
 			"\t\t\thref: \"${2:/level-one}\"",
-      "\t\t}",
+      "\t\t},",
       "\t\t{",
 			"\t\t\ttext: \"${3:Level two}\",",
 			"\t\t\thref: \"${4:/level-two}\"",
@@ -756,6 +756,27 @@
 			"}) }}$0"
 		],
 		"description": "Details – NHS.UK Design System"
+	},
+	"Do and don’t lists": {
+		"prefix": "nhsuk-do-dont-list",
+		"body": [
+			"{{ list({",
+			"\ttitle: \"${1:Do|Don’t}\",",
+			"\ttype: \"${2:tick|cross}\",",
+      "\titems: [",
+			"\t\t{",
+			"\t\t\titem: \"${3:Item one}\"",
+      "\t\t},",
+      "\t\t{",
+			"\t\t\titem: \"${4:Item two}\"",
+      "\t\t},",
+      "\t\t{",
+			"\t\t\titem: \"${5:item three}\"",
+      "\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Do and don’t lists – NHS.UK Design System"
 	},
 	"Expander": {
 		"prefix": "nhsuk-expander",
