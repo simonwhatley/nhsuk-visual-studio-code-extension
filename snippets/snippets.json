@@ -1036,7 +1036,7 @@
 	"Tab item set": {
 		"prefix": "nhsuk-tab-item",
 		"body": [
-			"{% set ${1:Tab name} %}",
+			"{% set ${1:tabName} %}",
 			"<h2 class=\"nhsuk-heading-l\">${2:Tab heading}</h2>",
 			"$3",
 			"{% endset %}$0"
