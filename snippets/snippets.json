@@ -866,6 +866,18 @@
 		],
 		"description": "Header – NHS.UK Design System"
 	},
+	"Pagination": {
+		"prefix": "nhsuk-pagination",
+		"body": [
+			"{{ pagination({",
+      "\tpreviousPage: \"${1:Label text}\",",
+      "\tpreviousUrl: \"${2:#}\",",
+      "\tnextPage: \"${3:Label text}\",",
+      "\tnextUrl: \"${4:#}\"",
+      "}) }}$0"
+		],
+		"description": "Pagination – NHS.UK Design System"
+	},
 	"Inset text": {
 		"prefix": "nhsuk-inset-text",
 		"body": [

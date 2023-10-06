@@ -75,8 +75,8 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Images](https://service-manual.nhs.uk/design-system/components/images/)|`nhsuk-image`||
 |[Inset text](https://service-manual.nhs.uk/design-system/components/inset-text/)|`nhsuk-inset-text`||
 |[Summary list](https://service-manual.nhs.uk/design-system/components/summary-list)|`nhsuk-summary-list`||
-|[Tables](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
-|[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-text/)|`nhsuk-warning-callout`||
+|[Table](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
+|[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-callout/)|`nhsuk-warning-callout`||
 
 #### Navigation
 
@@ -88,6 +88,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Contents list](https://service-manual.nhs.uk/design-system/components/contents-list/)|`nhsuk-contents-list`||
 |[Footer](https://service-manual.nhs.uk/design-system/components/footer/)|`nhsuk-footer`||
 |[Header](https://service-manual.nhs.uk/design-system/components/header/)|`nhsuk-header`||
+|[Pagination](https://service-manual.nhs.uk/design-system/components/pagination/)|`nhsuk-pagination`||
 |[Skip link](https://service-manual.nhs.uk/design-system/components/skip-link/)|`nhsuk-skip-link`||
 
 ## Dependencies
