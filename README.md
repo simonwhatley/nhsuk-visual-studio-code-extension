@@ -85,6 +85,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Action link](https://service-manual.nhs.uk/design-system/components/action-link/)|`nhsuk-action-link`||
 |[Back link](https://service-manual.nhs.uk/design-system/components/back-link/)|`nhsuk-back-link`||
 |[Breadcrumbs](https://service-manual.nhs.uk/design-system/components/breadcrumbs/)|`nhsuk-breadcrumbs`||
+|[Contents list](https://service-manual.nhs.uk/design-system/components/contents-list/)|`nhsuk-contents-list`||
 |[Footer](https://service-manual.nhs.uk/design-system/components/footer/)|`nhsuk-footer`||
 |[Header](https://service-manual.nhs.uk/design-system/components/header/)|`nhsuk-header`||
 |[Skip link](https://service-manual.nhs.uk/design-system/components/skip-link/)|`nhsuk-skip-link`||
