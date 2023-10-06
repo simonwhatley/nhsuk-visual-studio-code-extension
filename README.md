@@ -88,6 +88,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Contents list](https://service-manual.nhs.uk/design-system/components/contents-list/)|`nhsuk-contents-list`||
 |[Footer](https://service-manual.nhs.uk/design-system/components/footer/)|`nhsuk-footer`||
 |[Header](https://service-manual.nhs.uk/design-system/components/header/)|`nhsuk-header`||
+|[Pagination](https://service-manual.nhs.uk/design-system/components/pagination/)|`nhsuk-pagination`||
 |[Skip link](https://service-manual.nhs.uk/design-system/components/skip-link/)|`nhsuk-skip-link`||
 
 ## Dependencies
