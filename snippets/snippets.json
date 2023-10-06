@@ -747,6 +747,28 @@
 		],
 		"description": "Breadcrumbs – NHS.UK Design System"
 	},
+	"Contents list": {
+		"prefix": "nhsuk-contents-list",
+		"body": [
+			"{{ contentsList({",
+			"\titems: [",
+			"\t\t{",
+			"\t\t\ttext: \"${1:Item one}\",",
+			"\t\t\thref: \"${2:#}\"",
+      "\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${3:Item two}\",",
+			"\t\t\thref: \"${4:#}\"",
+      "\t\t},",
+      "\t\t{",
+			"\t\t\ttext: \"${5:Item three}\",",
+			"\t\t\thref: \"${6:#}\"",
+      "\t\t}",
+			"\t]",
+			"}) }}$0"
+		],
+		"description": "Breadcrumbs – NHS.UK Design System"
+	},
 	"Details": {
 		"prefix": "nhsuk-details",
 		"body": [
