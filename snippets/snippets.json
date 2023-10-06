@@ -1043,6 +1043,15 @@
 		],
 		"description": "Tab item – NHS.UK Design System"
 	},
+	"Tag": {
+		"prefix": "nhsuk-tag",
+		"body": [
+			"{{ tag({",
+			"\ttext: \"${1:Label text}\"",
+			"}) }}$0"
+		],
+		"description": "Tag – NHS.UK Design System"
+	},
 	"Warning callout": {
 		"prefix": "nhsuk-warning-callout",
 		"body": [

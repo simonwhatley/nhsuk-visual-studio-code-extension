@@ -78,6 +78,7 @@ This extension for Visual Studio Code includes snippets to help in building the 
 |[Table](https://service-manual.nhs.uk/design-system/components/table/)|`nhsuk-table`||
 |[Tabs](https://service-manual.nhs.uk/design-system/components/tabs/)|`nhsuk-tabs`||
 |Tab item HTML|`nhsuk-tab-item`|Use in conjunction with the `nhsuk-tabs` snippet. This snippet can be used to encapsulate a tab panel.|
+|[Tag](https://service-manual.nhs.uk/design-system/components/tag/)|`nhsuk-tag`||
 |[Warning callout](https://service-manual.nhs.uk/design-system/components/warning-callout/)|`nhsuk-warning-callout`||
 
 #### Navigation
