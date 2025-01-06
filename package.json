@@ -16,6 +16,10 @@
   ],
   "icon": "images/icon.png",
   "author": "Simon Whatley",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/simonwhatley"
+  },
   "licence": "MIT",
   "repository": {
     "type": "git",
